@@ -1,4 +1,4 @@
-# FPAC Design System
+# FPAC Style
 
 A USDA FPAC design system based on [USWDS](https://designsystem.digital.gov/). 
 Provides reusable CSS and documentation to style consistent, accessible web experiences.
@@ -56,4 +56,5 @@ This project is licensed under the [CC0 1.0 Universal (Public Domain Dedication)
 | Version | Date | Notes |
 | ------- | ---- | ----- |
 | 0.1     | 04/16/2025 | Initial project setup and wiring for @uswds/uswds |
+
 | 1.0     | 09/29/2025 | Initial release to GitHub |
