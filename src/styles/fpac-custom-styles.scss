@@ -28,6 +28,29 @@ These are styles that do not have design tokens available.
   color: #B2C9B7;
 }
 
+/* enforce proportional numerals */
+.text-proportional {
+  font-variant-numeric: proportional-nums;
+  font-feature-settings: "pnum" 1, "tnum" 0;
+  -webkit-font-feature-settings: "pnum" 1, "tnum" 0;
+}
+
+/* enforce proportional numerals */
+.text-no-tabular {
+  font-variant-numeric: proportional-nums;
+  font-feature-settings: "pnum" 1, "tnum" 0;
+  -webkit-font-feature-settings: "pnum" 1, "tnum" 0;
+}
+
+/* enforce tabular numerals */
+.text-tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "pnum" 0;
+  -webkit-font-feature-settings: "tnum" 1, "pnum" 0;
+}
+
+
+
 /* 
 The sidenav inherits what your standard link coloring is set to.
 There is no way to change the color of the current page link in the sidenav using the design tokens.
